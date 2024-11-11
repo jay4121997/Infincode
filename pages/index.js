@@ -6,7 +6,8 @@ import FooterCTA from "../components/ui/FooterCTA";
 import Hero from "../components/ui/Hero";
 import LogoGrid from "../components/ui/LogoGrid";
 import Testimonials from "../components/ui/Testimonials";
-import ToolKit from "../components/ui/ToolKit";
+import WhatWeOffer from "../components/ui/WhatWeOffer";
+import Calender from "../components/ui/Calender";
 
 export default function Home() {
   return (
@@ -15,16 +16,19 @@ export default function Home() {
         <meta name="robots" content="index" />
       </Head>
       <Hero />
-      {/* <LogoGrid /> */}
+      <WhatWeOffer />
+      <Calender />
+      <FooterCTA />
+      {/* <LogoGrid />
       <GradientWrapper>
-        <ToolKit />
+        
       </GradientWrapper>
       <CTA />
       <GradientWrapper>
         <Features />
         <Testimonials />
-      </GradientWrapper>
-      <FooterCTA />
+        
+      </GradientWrapper> */}
     </>
   );
 }

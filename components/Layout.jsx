@@ -6,8 +6,8 @@ const Layout = ({ children }) => {
     return (
         <>
             <Head>
-                <title>Insightful Minds</title>
-                <meta name='description' content='InsightfulMinds making 
+                <title>Infinicode</title>
+                <meta name='description' content='Infinicode making 
                 it simple for you to build and manage your Data pipelins, Integrate AI and ML in your business, Get useful business insights from your Data and much more. Reach out to us today at contact.insightfulmind@gmail.com' />
                 <meta name='viewport' content='width=device-width, initial-scale=1' />
                 <link rel='icon' href='/favicon.ico' />

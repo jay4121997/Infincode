@@ -11,7 +11,7 @@ const Navbar = () => {
 
     const navigation = [
         // { title: "Features", path: "#features" },
-        // { title: "Our toolkit", path: "#toolkit" },
+        // { title: "Our WhatWeOffer", path: "#WhatWeOffer" },
         { title: "Home", path: "/" },
         // { title: "Testimonials", path: "#testimonials" },
         { title: "Projects", path: "/projects" },
