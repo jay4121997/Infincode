@@ -1,6 +1,5 @@
 import SectionWrapper from "../../SectionWrapper";
 import NavLink from "../NavLink";
-import ctaImage from "../../../public/cta-image.jpg";
 import Image from "next/image";
 import analysis from "./heroanimation.json";
 import Lottie from "lottie-react";
