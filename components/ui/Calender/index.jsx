@@ -23,7 +23,7 @@ export default function Calendar() {
   }, []);
 
   return (
-    <SectionWrapper>
+    <SectionWrapper id="calendar">
       <div className="max-w-2xl mx-auto text-center space-y-4 ">
         <h2 className="text-gray-900 text-4xl font-bold sm:text-5xl">
           Schedule Your{" "}

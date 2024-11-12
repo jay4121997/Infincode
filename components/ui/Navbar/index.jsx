@@ -10,8 +10,8 @@ const Navbar = () => {
     const { events } = useRouter();
 
     const navigation = [
-        // { title: "Features", path: "#features" },
-        // { title: "Our WhatWeOffer", path: "#WhatWeOffer" },
+        // { title: "Calendar", path: "#calendar" },
+        { title: "Explore Services", path: "#WhatWeOffer" },
         // { title: "Home", path: "/" },
         // { title: "Testimonials", path: "#testimonials" },
         // { title: "Projects", path: "/projects" },
@@ -73,14 +73,14 @@ const Navbar = () => {
                                     )
                                 })
                             }
-                            {/* <li>
+                            <li>
                                 <NavLink
-                                    href="/get-started"
+                                    href="#calendar"
                                     className="block font-medium text-sm text-white bg-gray-800 hover:bg-gray-600 active:bg-gray-900 md:inline"
                                 >
                                     Let's work
                                 </NavLink>
-                            </li> */}
+                            </li>
                         </ul>
                     </div>
                 </div>

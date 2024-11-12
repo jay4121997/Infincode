@@ -97,7 +97,7 @@ const WhatWeOffer = () => {
   ];
 
   return (
-    <SectionWrapper>
+    <SectionWrapper id='WhatWeOffer'>
       <div
         id="toolkit"
         className="max-w-screen-xl mx-auto px-6 text-gray-700 md:px-12"
