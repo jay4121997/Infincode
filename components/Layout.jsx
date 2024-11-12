@@ -9,8 +9,7 @@ const Layout = ({ children }) => {
         <title>Infinicode</title>
         <meta
           name="description"
-          content="Infinicode making 
-                it simple for you to build and manage your Data pipelins, Integrate AI and ML in your business, Get useful business insights from your Data and much more. Reach out to us today at contact.insightfulmind@gmail.com"
+          content="Transform your digital presence with expert web design, AI solutions, e-commerce, and seamless app development. We build and support tools to help your business grow smoothly and efficiently. Book today at https://cal.com/infinicode"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
