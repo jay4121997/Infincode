@@ -3,8 +3,8 @@ import ani from "./ww.json";
 import Lottie from "lottie-react";
 
 const Hero = () => (
-  <section className="min-h-[85vh] bg-gradient flex flex-col">
-    <div className="h-1/6">
+  <section className="min-h-[90vh] bg-gradient flex flex-col">
+    <div className="max-h-[5vh]">
       <Lottie animationData={ani} loop={true} className="opacity-15" />
     </div>
     <div className="flex-1 flex items-center justify-center text-gray-600">
