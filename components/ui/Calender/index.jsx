@@ -35,14 +35,14 @@ export default function Calendar() {
       <div className="my-16 max-w-screen-xl mx-auto">
         <Cal
           namespace="60-min-meeting"
-          calLink="infinicode/60-min-meeting"
+          calLink="infincode/60-min-meeting"
           style={{ width: "100%", height: "100%", overflow: "scroll" }}
           config={{ layout: "month_view" }}
         />
         <p className="text-base text-center text-gray-600">
           If having any issue scheduling form the form above,{" "}
           <a
-            href="https://cal.com/infinicode"
+            href="https://cal.com/infincode"
             className="text-indigo-600 underline"
             target="_blank"
             rel="noreferrer"

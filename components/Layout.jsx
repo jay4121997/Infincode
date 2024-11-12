@@ -9,7 +9,7 @@ const Layout = ({ children }) => {
         <title>Infincode</title>
         <meta
           name="description"
-          content="Transform your digital presence with expert web design, AI solutions, e-commerce, and seamless app development. We build and support tools to help your business grow smoothly and efficiently. Book today at https://cal.com/Infinicode"
+          content="Transform your digital presence with expert web design, AI solutions, e-commerce, and seamless app development. We build and support tools to help your business grow smoothly and efficiently. Book today at https://cal.com/infincode"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link
