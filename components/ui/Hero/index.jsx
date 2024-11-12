@@ -4,10 +4,10 @@ import Lottie from "lottie-react";
 
 const Hero = () => (
   <section className="min-h-[90vh] bg-gradient flex flex-col">
-    <div className="max-h-[5vh]">
-      <Lottie animationData={ani} loop={true} className="opacity-15" />
+    <div className="max-h-[3vh] z-0">
+      <Lottie animationData={ani} loop={true} className="opacity-60" />
     </div>
-    <div className="flex-1 flex items-center justify-center text-gray-600">
+    <div className="z-50 flex-1 flex items-center justify-center text-gray-600">
       <div className="space-y-5 max-w-4xl mx-auto text-center content sm:align-middle">
         <h1 className="text-gray-800 font-extrabold mx-auto text-4xl sm:text-5xl md:text-6xl lg:text-6xl xl:text-6xl capitalize">
           Empowering Your Vision with Rapid, Reliable Solutions
