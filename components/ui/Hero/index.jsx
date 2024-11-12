@@ -18,7 +18,7 @@ const Hero = () => (
             href="#calendar"
             className="text-white bg-gray-800 hover:bg-gray-600 active:bg-gray-900"
           >
-            Get In Touch Today
+            Schedule a Call Today
           </NavLink>
           {/* <NavLink
                         href="#cta"

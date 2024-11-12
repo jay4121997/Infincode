@@ -34,6 +34,21 @@ const WhatWeOffer = () => {
       title: "Generative AI & Machine Learning",
       desc: "Unleash creativity and efficiency with innovative AI and machine learning solutions customized to elevate your business.",
     },
+    {
+      icon: <FaShoppingCart />,
+      title: "E-commerce Development",
+      desc: "Build and optimize e-commerce platforms with a focus on secure payment gateways, product management, and customer experience.",
+    },
+    {
+      icon: <FaDatabase />,
+      title: "API Development & Integrations",
+      desc: "Build and integrate APIs to connect applications, enabling seamless data exchange and functionality across platforms.",
+    },
+    {
+      icon: <VscServer />,
+      title: "DevOps & CI/CD",
+      desc: "Implement DevOps practices for smooth software development and deployment with CI/CD, automated testing, and monitoring.",
+    },
     // {
     //   icon: <AiOutlineBarChart />,
     //   title: "Data Analytics & Business Insights",
@@ -64,16 +79,8 @@ const WhatWeOffer = () => {
       title: "UI/UX Design",
       desc: "Focus on user-centered design to enhance usability, aesthetics, and customer journeys for maximum engagement.",
     },
-    {
-      icon: <FaShoppingCart />,
-      title: "E-commerce Development",
-      desc: "Build and optimize e-commerce platforms with a focus on secure payment gateways, product management, and customer experience.",
-    },
-    {
-      icon: <VscServer />,
-      title: "DevOps & CI/CD",
-      desc: "Implement DevOps practices for smooth software development and deployment with CI/CD, automated testing, and monitoring.",
-    },
+    
+    
     // {
     //   icon: <AiOutlineSecurityScan />,
     //   title: "Cybersecurity",
@@ -89,11 +96,7 @@ const WhatWeOffer = () => {
       title: "Maintenance & Support",
       desc: "Ongoing support and maintenance services to keep systems and websites running smoothly with regular updates and monitoring.",
     },
-    {
-      icon: <FaDatabase />,
-      title: "API Development & Integrations",
-      desc: "Build and integrate APIs to connect applications, enabling seamless data exchange and functionality across platforms.",
-    },
+    
   ];
 
   return (
