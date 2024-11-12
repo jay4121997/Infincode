@@ -64,11 +64,7 @@ const WhatWeOffer = () => {
     //   title: "Cloud Computing & Infrastructure",
     //   desc: "Harness the power of cloud solutions to scale efficiently, with secure, adaptable infrastructure tailored to your needs.",
     // },
-    {
-      icon: <AiOutlineMobile />,
-      title: "Mobile App Development",
-      desc: "Develop cross-platform or native mobile applications for Android and iOS, providing seamless mobile experiences.",
-    },
+    
     // {
     //   icon: <FaLaptopCode />,
     //   title: "Custom Software Development",
@@ -95,6 +91,11 @@ const WhatWeOffer = () => {
       icon: <VscTools />,
       title: "Maintenance & Support",
       desc: "Ongoing support and maintenance services to keep systems and websites running smoothly with regular updates and monitoring.",
+    },
+    {
+      icon: <AiOutlineMobile />,
+      title: "Mobile App Development",
+      desc: "Develop cross-platform or native mobile applications for Android and iOS, providing seamless mobile experiences.",
     },
     
   ];
