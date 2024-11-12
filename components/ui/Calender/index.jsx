@@ -9,6 +9,7 @@
 import Cal, { getCalApi } from "@calcom/embed-react";
 import { useEffect } from "react";
 import SectionWrapper from "../../SectionWrapper";
+import HeadingText from "../HeadingText";
 
 export default function Calendar() {
   useEffect(() => {
@@ -25,12 +26,7 @@ export default function Calendar() {
   return (
     <SectionWrapper id="calendar">
       <div className="max-w-2xl mx-auto text-center space-y-4 ">
-        <h2 className="text-gray-900 text-4xl font-bold sm:text-5xl">
-          Schedule Your{" "}
-          <span className="text-indigo-600 underline decoration-wavy decoration-indigo-400">
-            Meeting
-          </span>
-        </h2>
+        <HeadingText text="Schedule Your Meeting" />
         <p className="text-lg text-gray-600">
           Book a 60-minute slot at your convenience. Select an available date
           and time below.

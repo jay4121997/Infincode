@@ -21,6 +21,7 @@ import {
   FaShoppingCart,
   FaSyncAlt,
 } from "react-icons/fa";
+import HeadingText from "../HeadingText";
 
 const WhatWeOffer = () => {
   const features = [
@@ -107,12 +108,7 @@ const WhatWeOffer = () => {
         className="max-w-screen-xl mx-auto px-6 text-gray-700 md:px-12"
       >
         <div className="max-w-2xl mx-auto text-center space-y-4">
-          <h2 className="text-gray-900 text-4xl font-bold sm:text-5xl">
-            What We{" "}
-            <span className="text-indigo-600 underline decoration-wavy decoration-indigo-400">
-              Offer
-            </span>
-          </h2>
+          <HeadingText text="What We Offer" />          
           <p className="text-lg text-gray-600">
             Discover our favorite tools and technologies that empower your
             business solutions.
