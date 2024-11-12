@@ -16,9 +16,12 @@ export default function Home() {
         <meta name="robots" content="index" />
       </Head>
       <Hero />
-      <WhatWeOffer />
+      <GradientWrapper>
+        <WhatWeOffer />
+      </GradientWrapper>
+
       <Calender />
-      <FooterCTA />
+      {/* <FooterCTA /> */}
       {/* <LogoGrid />
       <GradientWrapper>
         

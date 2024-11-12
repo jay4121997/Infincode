@@ -12,10 +12,10 @@ const Navbar = () => {
     const navigation = [
         // { title: "Features", path: "#features" },
         // { title: "Our WhatWeOffer", path: "#WhatWeOffer" },
-        { title: "Home", path: "/" },
+        // { title: "Home", path: "/" },
         // { title: "Testimonials", path: "#testimonials" },
-        { title: "Projects", path: "/projects" },
-        { title: "Blogs", path: "/blogs" },
+        // { title: "Projects", path: "/projects" },
+        // { title: "Blogs", path: "/blogs" },
     ]
 
     useEffect(() => {
@@ -73,14 +73,14 @@ const Navbar = () => {
                                     )
                                 })
                             }
-                            <li>
+                            {/* <li>
                                 <NavLink
                                     href="/get-started"
                                     className="block font-medium text-sm text-white bg-gray-800 hover:bg-gray-600 active:bg-gray-900 md:inline"
                                 >
                                     Let's work
                                 </NavLink>
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
                 </div>
