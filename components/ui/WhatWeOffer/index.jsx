@@ -1,24 +1,14 @@
 import SectionWrapper from "../../SectionWrapper";
 import {
-  AiFillOpenAI,
-  AiOutlineBarChart,
-  AiFillMerge,
   AiOutlineMobile,
-  AiOutlineSecurityScan,
+  AiOutlineBarChart,
 } from "react-icons/ai";
 import {
-  VscUngroupByRefType,
-  VscDashboard,
   VscGlobe,
-  VscCloud,
   VscTools,
-  VscServer,
 } from "react-icons/vsc";
 import {
-  FaDatabase,
-  FaLaptopCode,
   FaDrawPolygon,
-  FaShoppingCart,
   FaSyncAlt,
 } from "react-icons/fa";
 import HeadingText from "../HeadingText";
@@ -27,78 +17,39 @@ const WhatWeOffer = () => {
   const features = [
     {
       icon: <VscGlobe />,
-      title: "Web Development & Management",
-      desc: "Build and manage websites that are responsive, user-friendly, and optimized for both performance and SEO, ensuring a smooth digital presence.",
+      title: "Website Design & Development",
+      desc: "Create visually appealing, responsive websites that provide an optimal user experience and meet business goals.",
     },
     {
-      icon: <AiFillOpenAI />,
-      title: "Generative AI & Machine Learning",
-      desc: "Unleash creativity and efficiency with innovative AI and machine learning solutions customized to elevate your business.",
+      icon: <FaSyncAlt />,
+      title: "Speed Optimization",
+      desc: "Enhance website performance with optimized load times, ensuring a smooth user experience across all devices.",
     },
     {
-      icon: <FaShoppingCart />,
-      title: "E-commerce Development",
-      desc: "Build and optimize e-commerce platforms with a focus on secure payment gateways, product management, and customer experience.",
+      icon: <AiOutlineBarChart />,
+      title: "SEO (Search Engine Optimization)",
+      desc: "Optimize websites to improve search engine visibility, attracting more organic traffic and increasing online presence.",
     },
     {
-      icon: <FaDatabase />,
-      title: "API Development & Integrations",
-      desc: "Build and integrate APIs to connect applications, enabling seamless data exchange and functionality across platforms.",
+      icon: <FaDrawPolygon />,
+      title: "Brand Design",
+      desc: "Develop a cohesive brand identity, including logos and visuals, to make a lasting impact on your target audience.",
     },
     {
-      icon: <VscServer />,
-      title: "DevOps & CI/CD",
-      desc: "Implement DevOps practices for smooth software development and deployment with CI/CD, automated testing, and monitoring.",
+      icon: <VscTools />,
+      title: "Web Hosting & Management",
+      desc: "Provide reliable web hosting with continuous maintenance to ensure security, updates, and smooth performance.",
     },
     // {
-    //   icon: <AiOutlineBarChart />,
-    //   title: "Data Analytics & Business Insights",
-    //   desc: "Turn raw data into actionable insights for better decision-making and strategic growth through comprehensive data analysis.",
-    // },
-    // {
-    //   icon: <VscUngroupByRefType />,
-    //   title: "ETL & Data Pipelines",
-    //   desc: "Automate and streamline data flows, integrating sources for real-time processing and effective data management.",
-    // },
-    // {
-    //   icon: <VscCloud />,
-    //   title: "Cloud Computing & Infrastructure",
-    //   desc: "Harness the power of cloud solutions to scale efficiently, with secure, adaptable infrastructure tailored to your needs.",
-    // },
-    
-    // {
-    //   icon: <FaLaptopCode />,
-    //   title: "Custom Software Development",
-    //   desc: "Create tailored software solutions to meet unique client needs, from small applications to complex enterprise systems.",
+    //   icon: <AiOutlineMobile />,
+    //   title: "Mobile App Development",
+    //   desc: "Develop cross-platform or native mobile applications for Android and iOS, offering seamless mobile experiences.",
     // },
     {
       icon: <FaDrawPolygon />,
       title: "UI/UX Design",
-      desc: "Focus on user-centered design to enhance usability, aesthetics, and customer journeys for maximum engagement.",
+      desc: "Enhance usability and aesthetics through user-centered design, creating engaging customer journeys.",
     },
-    
-    
-    // {
-    //   icon: <AiOutlineSecurityScan />,
-    //   title: "Cybersecurity",
-    //   desc: "Protect digital assets with security audits, vulnerability assessments, and ongoing monitoring to guard against cyber threats.",
-    // },
-    {
-      icon: <AiFillMerge />,
-      title: "System Integrations",
-      desc: "Seamlessly connect your tools, applications, and platforms to enhance workflow and data consistency across systems.",
-    },
-    {
-      icon: <VscTools />,
-      title: "Maintenance & Support",
-      desc: "Ongoing support and maintenance services to keep systems and websites running smoothly with regular updates and monitoring.",
-    },
-    {
-      icon: <AiOutlineMobile />,
-      title: "Mobile App Development",
-      desc: "Develop cross-platform or native mobile applications for Android and iOS, providing seamless mobile experiences.",
-    },
-    
   ];
 
   return (
