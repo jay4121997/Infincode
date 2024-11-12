@@ -14,7 +14,7 @@ export default function GetStarted() {
   return (
     <>
       <Head>
-        <title>Contact us - Blinder</title>
+        <title>Contact us - Infincode</title>
       </Head>
       <div className='pt-28 pb-12'>
         <div className='custom-screen text-gray-600'>
@@ -27,11 +27,11 @@ export default function GetStarted() {
                 We are here to help. Get in touch with sales our press team and
                 let us know how we can help, or shoot us an email on{" "}
                 <a
-                  href='mailto:support@blinder.com'
+                  href='mailto:contact.infincode@gmail.com'
                   target='_blank'
                   rel='noreferrer'
                   className='text-indigo-600 hover:text-indigo-400 font-medium duration-150'>
-                  contact.insightfulmind@gmail.com
+                  contact.infincode@gmail.com
                 </a>
               </p>
             </div>
