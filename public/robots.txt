@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://infincode.com
+
+# Sitemaps
+Sitemap: https://infincode.com/sitemap.xml
