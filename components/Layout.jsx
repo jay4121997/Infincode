@@ -6,10 +6,10 @@ const Layout = ({ children }) => {
   return (
     <>
       <Head>
-        <title>Infinicode</title>
+        <title>Infincode</title>
         <meta
           name="description"
-          content="Transform your digital presence with expert web design, AI solutions, e-commerce, and seamless app development. We build and support tools to help your business grow smoothly and efficiently. Book today at https://cal.com/infinicode"
+          content="Transform your digital presence with expert web design, AI solutions, e-commerce, and seamless app development. We build and support tools to help your business grow smoothly and efficiently. Book today at https://cal.com/Infinicode"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link
@@ -25,7 +25,7 @@ const Layout = ({ children }) => {
           sizes="180x180"
           href="/apple-touch-icon.png"
         />
-        <meta name="apple-mobile-web-app-title" content="Infinicode" />
+        <meta name="apple-mobile-web-app-title" content="Infincode" />
         <link rel="manifest" href="/site.webmanifest" />
       </Head>
       <Navbar />

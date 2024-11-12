@@ -25,7 +25,7 @@ const Testimonials = () => {
             avatar: "https://randomuser.me/api/portraits/women/79.jpg",
             name: "Angela stian",
             title: "Product designer",
-            quote: "One day, my company was about to go under and I had no idea what to do. I found Infinicode and it helped me get my business back on track.Now, my company is flourishing and I see new opportunities."
+            quote: "One day, my company was about to go under and I had no idea what to do. I found Infincode and it helped me get my business back on track.Now, my company is flourishing and I see new opportunities."
         },
         {
             avatar: "https://images.unsplash.com/photo-1464863979621-258859e62245?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=386&q=80",
@@ -37,7 +37,7 @@ const Testimonials = () => {
             avatar: "https://images.unsplash.com/photo-1590038767624-dac5740a997b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
             name: "Kavi laron",
             title: "Full stack engineer",
-            quote: "We all know how costly it is to find good help. I was faced with this problem when I lost my data entry staff and my business was on the brink of going under. Thankfully, Infinicode saved the day."
+            quote: "We all know how costly it is to find good help. I was faced with this problem when I lost my data entry staff and my business was on the brink of going under. Thankfully, Infincode saved the day."
         },
     ]
 

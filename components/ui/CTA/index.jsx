@@ -20,7 +20,7 @@ const CTA = () => {
               </span>
             </h2>
             <p className="mt-3 text-gray-600 text-justify">
-            At Infinicode, we take pride in delivering cutting-edge solutions across various domains. Our expertise spans Generative AI, Data Pipelines, Machine Learning, and Web Development. Explore our diverse portfolio of successful projects, where we've helped clients achieve their goals through innovative and tailored solutions.
+            At Infincode, we take pride in delivering cutting-edge solutions across various domains. Our expertise spans Generative AI, Data Pipelines, Machine Learning, and Web Development. Explore our diverse portfolio of successful projects, where we've helped clients achieve their goals through innovative and tailored solutions.
             </p>
             <NavLink
               href="/get-started"

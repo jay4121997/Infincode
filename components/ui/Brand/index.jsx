@@ -4,10 +4,10 @@ import Logo from '../../../public/logos/logo.png'
 
 const Brand = () => (
     <Link href="/">
-        {/* <h1>Infinicode</h1> */}
+        {/* <h1>Infincode</h1> */}
         <Image
             src={Logo}
-            alt="Infinicode"
+            alt="Infincode"
             width={150}
             height={150}
         />

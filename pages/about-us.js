@@ -8,7 +8,7 @@ const About = () => {
       <section className="text-center">
         <HeadingText text="About Us" />
         <p className="mt-10 text-lg text-gray-600">
-          Welcome to <strong>Infinicode</strong>, where technical
+          Welcome to <strong>Infincode</strong>, where technical
           expertise meets creative vision to shape impactful digital
           experiences. We pride ourselves on creating tailored, innovative
           solutions that help brands thrive in the digital world.
@@ -123,7 +123,7 @@ const About = () => {
       {/* Closing Statement */}
       <section className="text-center border-t border-gray-200 pt-6">
         <p className="text-lg text-gray-700">
-          At <strong>Infinicode</strong>, we’re more than just a
+          At <strong>Infincode</strong>, we’re more than just a
           development agency; we’re a dedicated partner in your digital journey.
           Let’s work together to transform your ideas into lasting, impactful
           experiences that make a real difference in the digital world.
