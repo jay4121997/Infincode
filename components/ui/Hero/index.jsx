@@ -4,7 +4,7 @@ import Lottie from "lottie-react";
 
 const Hero = () => (
   <section className="min-h-[90vh] bg-gradient flex flex-col">
-    <div className="max-h-[3vh] z-0">
+    <div className="max-h-[10vh] z-0">
       <Lottie animationData={ani} loop={true} className="opacity-60" />
     </div>
     <div className="z-50 flex-1 flex items-center justify-center text-gray-600">
