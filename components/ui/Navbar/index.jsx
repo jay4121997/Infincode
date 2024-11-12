@@ -10,9 +10,9 @@ const Navbar = () => {
     const { events } = useRouter();
 
     const navigation = [
-        // { title: "Calendar", path: "#calendar" },
-        { title: "Explore Services", path: "#WhatWeOffer" },
-        // { title: "Home", path: "/" },
+        { title: "Home", path: "/" },
+        { title: "Who we are", path: "/about-us" },
+        { title: "Our Services", path: "#WhatWeOffer" },        
         // { title: "Testimonials", path: "#testimonials" },
         // { title: "Projects", path: "/projects" },
         // { title: "Blogs", path: "/blogs" },
@@ -78,7 +78,7 @@ const Navbar = () => {
                                     href="#calendar"
                                     className="block font-medium text-sm text-white bg-gray-800 hover:bg-gray-600 active:bg-gray-900 md:inline"
                                 >
-                                    Let's work
+                                    Connect Today
                                 </NavLink>
                             </li>
                         </ul>
